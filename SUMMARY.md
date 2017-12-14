@@ -1,0 +1,23 @@
+# Summary
+
+* [preface](README.md)
+* [genotyping](genotyping.md)
+  * [workflow](genotyping/workflow.md)
+  * [prospect](genotyping/prospect.md)
+* [drug-reaction](yao-wu-fan-ying.md)
+  * [introduction](yao-wu-fan-ying/shu-ju-ku-jie-shao.md)
+  * [workflow](yao-wu-fan-ying/fen-xi-liu-cheng.md)
+  * [prospect](yao-wu-fan-ying/zhan-wang.md)
+* [ancestry](zu-yuan-fen-xi.md)
+  * [ancestry-composition](zu-yuan-fen-xi/ancestry-composition.md)
+  * [haplotyper-wrapper](zu-yuan-fen-xi/haplotyper-wrapper.md)
+  * [workflow](zu-yuan-fen-xi/workflow.md)
+  * [prospect](zu-yuan-fen-xi/prospect.md)
+* [hereditary-disease ](yi-chuan-ji-bing.md)
+  * [workflow](yi-chuan-ji-bing/workflow.md)
+  * [prospect](yi-chuan-ji-bing/prospect.md)
+* [database](database.md)
+* [Others](others.md)
+  * [genecard](others/genecard.md)
+  * [gene-imputation](others/gene-imputation.md)
+
