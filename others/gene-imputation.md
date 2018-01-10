@@ -17,6 +17,7 @@ sudo apt-get install gfortran libcurl4-gnutls-dev libxml2-dev libmysqlclient-dev
 ```
 
 ### 数据要求
+- 参考集样本数大于200
 - 二等位
 - vcf文件必须包含PL列（芯片数据转化时参考confidence信息）
 - vcf必须用bgzip压缩，用tabix创建index
