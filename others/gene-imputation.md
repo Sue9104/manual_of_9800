@@ -26,6 +26,19 @@ sudo apt-get install gfortran libcurl4-gnutls-dev libxml2-dev libmysqlclient-dev
 ```
 docker run --name imputation --mount type=bind,source=/home/sumin/workdir/GenotypeImputation/data,target=/data imputation Rscript /data/test.R
 ```
+### 参数测试
+| | 准确率 | 时间 |
+| :---: | :---: | :---: |
+| kl=10|||
+| kl=20 | |  |
+| kl=50 | 90.22% | 35min |
+| haps=100 | % | min |
+| haps=200 | % | min |
+| haps=500 | % | min |
+| flank=10 | % | min |
+| flank=50 | % | min |
+| flank=100 | % | min |
+
 
 
 ## BEAGLE
@@ -43,6 +56,6 @@ java -jar beagle.08Jun17.d8b.jar ref=ref.bref gt=target.vcf.gz out=prefix
 ### 结果比较
 | | GeneImp | BEAGLE |
 | :---: | :---: | :---: |
-| 运行时间 | √ | 28min |
-| 准确率 | √ | √ |
-| 资源消耗|||
+| 运行时间 | 32min | 28min |
+| 准确率 | 93% | 90% |
+| 资源消耗|400G|8G|
