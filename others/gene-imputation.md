@@ -35,7 +35,9 @@ docker run --name imputation --mount type=bind,source=/home/sumin/workdir/Genoty
 
 | | 准确率 | 时间 |
 | :---: | :---: | :---: |
-| haps=100 | % | min |
+| haps=20 | 92.59% | 28min |
+| haps=50 | 93.41% | 35min |
+| haps=100 | 93.57% | 41min |
 | haps=200(default) | % | min |
 | haps=500 | % | min |
 
