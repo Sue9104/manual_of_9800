@@ -52,8 +52,15 @@ docker run --name imputation --mount type=bind,source=/home/sumin/workdir/Genoty
 java -jar bref.08Jun17.d8b.jar ref.vcf.gz
 java -jar beagle.08Jun17.d8b.jar ref=ref.bref gt=target.vcf.gz out=prefix
 ```
+### 参数测试
+| | 准确率 | 时间 |
+| :---: | :---: | :---: |
+| kl=10|||
+| kl=20 | |  |
+| kl=50 | 90.22% | 35min |
 
-### 结果比较
+
+## 结果比较
 | | GeneImp | BEAGLE |
 | :---: | :---: | :---: |
 | 运行时间 | 32min | 28min |
