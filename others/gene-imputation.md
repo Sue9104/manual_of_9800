@@ -56,12 +56,12 @@ java -jar beagle.08Jun17.d8b.jar ref=ref.bref gt=target.vcf.gz out=prefix
 | | 准确率 | 时间 |
 | :---: | :---: | :---: |
 | markers=10M| 90.11% | 18min |
-| markers=50M | 90.40% | 22min |
+| markers=50M(default) | 90.40% | 22min |
 | markers=100M | 90.36% | 25min |
 
 | | 准确率 | 时间 |
 | :---: | :---: | :---: |
-| iteration=5 | 90.40% | 22min|
+| iteration=5(default) | 90.40% | 22min|
 | iteration=20 | 90.42% | 47min |
 | iteration=100 | % | min |
 
