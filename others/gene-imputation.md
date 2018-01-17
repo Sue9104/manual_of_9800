@@ -71,7 +71,7 @@ java -jar beagle.08Jun17.d8b.jar ref=ref.bref gt=target.vcf.gz out=prefix
 | :---: | :---: | :---: |
 | iteration=5(default) | 90.40% | 22min|
 | iteration=20 | 90.42% | 47min |
-| iteration=100 | % | min |
+| iteration=100 | 90.38% | 180min |
 
 ## 结果比较
 | | GeneImp | BEAGLE |
