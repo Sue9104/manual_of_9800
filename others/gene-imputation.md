@@ -29,8 +29,8 @@ docker run --name imputation --mount type=bind,source=/home/sumin/workdir/Genoty
 ### 参数测试
 | | 准确率 | 时间 |
 | :---: | :---: | :---: |
-| kl=10|||
-| kl=20(default) | |  |
+| kl=10| 94.89% |224min|
+| kl=20(default) | 93.68% | 59min  |
 | kl=50 | 90.22% | 35min |
 
 | | 准确率 | 时间 |
@@ -38,8 +38,8 @@ docker run --name imputation --mount type=bind,source=/home/sumin/workdir/Genoty
 | haps=20 | 92.59% | 28min |
 | haps=50 | 93.41% | 35min |
 | haps=100 | 93.57% | 41min |
-| haps=200(default) | % | min |
-| haps=500 | % | min |
+| haps=200(default) | 93.68% | 59min |
+| haps=500 | 93.71% | 122min |
 
 | | 准确率 | 时间 |
 | :---: | :---: | :---: |
@@ -77,7 +77,8 @@ java -jar beagle.08Jun17.d8b.jar ref=ref.bref gt=target.vcf.gz out=prefix
 | :---: | :---: | :---: |
 | err=0.00001| 90.11% | 18min |
 | err=0.0001(default) | 90.40% | 22min |
-| err=0.001 | 90.36% | 25min |
+| err=0.001 | 90.44% | 22min |
+| err=0.01 | % | min |
 
 
 ## 结果比较
