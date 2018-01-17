@@ -78,7 +78,7 @@ java -jar beagle.08Jun17.d8b.jar ref=ref.bref gt=target.vcf.gz out=prefix
 | err=0.00001| 90.11% | 18min |
 | err=0.0001(default) | 90.40% | 22min |
 | err=0.001 | 90.44% | 22min |
-| err=0.01 | % | min |
+| err=0.01 | 90.21% | 22min |
 
 
 ## 结果比较
