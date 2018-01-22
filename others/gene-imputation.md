@@ -97,10 +97,10 @@ java -jar beagle.08Jun17.d8b.jar ref=ref.bref gt=target.vcf.gz out=prefix
 
 |<0.6 | GeneImp | BEAGLE |
 | :---: | :---: | :---: |
-|PolyHighResolution|36||
-|MonoHighResolution|1||
+|PolyHighResolution|36|97|
+|MonoHighResolution|1|1|
 
 |<0.5 | GeneImp | BEAGLE |
 | :---: | :---: | :---: |
-|PolyHighResolution|8||
-|MonoHighResolution|1||
+|PolyHighResolution|8|30|
+|MonoHighResolution|1|1|
