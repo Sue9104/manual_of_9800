@@ -90,3 +90,14 @@ java -jar beagle.08Jun17.d8b.jar ref=ref.bref gt=target.vcf.gz out=prefix
 | 与芯片原始数据一致率 | 93% | 90% |
 |GeneImp与BEAGLE一致率|||
 | 资源消耗|400G|8G|
+
+- conversion type对位点推断准确性影响
+|<0.6 | GeneImp | BEAGLE |
+| :---: | :---: | :---: |
+|PolyHighResolution|36||
+|MonoHighResolution|1||
+
+|<0.5 | GeneImp | BEAGLE |
+| :---: | :---: | :---: |
+|PolyHighResolution|8||
+|MonoHighResolution|1||
