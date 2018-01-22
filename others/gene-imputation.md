@@ -88,7 +88,7 @@ java -jar beagle.08Jun17.d8b.jar ref=ref.bref gt=target.vcf.gz out=prefix
 | 运行时间 | 59min | 28min |
 | 准确率 | 93% | 90% |
 | 与芯片原始数据一致率 | 93% | 90% |
-|GeneImp与BEAGLE一致率|||
+|GeneImp与BEAGLE一致率|97.88%|97.88%|
 | 资源消耗|400G|8G|
 
 - conversion type对位点推断准确性影响
