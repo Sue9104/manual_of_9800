@@ -92,6 +92,9 @@ java -jar beagle.08Jun17.d8b.jar ref=ref.bref gt=target.vcf.gz out=prefix
 | 资源消耗|400G|8G|
 
 - conversion type对位点推断准确性影响
+
+初始：MonoHighResolution：843； PolyHighResolution: 565; NoMinorHom: 440
+
 |<0.6 | GeneImp | BEAGLE |
 | :---: | :---: | :---: |
 |PolyHighResolution|36||
