@@ -20,4 +20,5 @@
 * [Others](others.md)
   * [genecard](others/genecard.md)
   * [gene-imputation](others/gene-imputation.md)
+* [piplines](piplines.md)
 
