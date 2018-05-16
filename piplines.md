@@ -47,8 +47,8 @@ Drug Reaction Pipeline [-dgopsuv] [long options...] <some-arg>
 	-s STR --step STR      0: database initialize; 1: drug_analysis; 2:
 	                       upload results to database
 	                     
-	-g STR --genotype STR  genotype directory or file
-	-d STR --gender STR    sample genotype file
+	-g STR --genotype STR  数据处理结果 format/filtered 目录
+	-d STR --gender STR    样本性别，有两列样本编号和性别，“A01_10021098,男”
 	                     
 	-p STR --para STR      share dir default is
 	                       /home/sumin/perl5/perlbrew/perls/perl-5.24.1/lib/site_perl/5.24.1/auto/share/dist/Drug-Reaction
@@ -61,7 +61,7 @@ Drug Reaction Pipeline [-dgopsuv] [long options...] <some-arg>
 
 数据库以及api: /home/sumin/workdir/SNParray/pharmgkb_api
 
-命令举例： **drug-reaction -s 1,2 -g filtered  -d ../../20th_20180506_gender.csv  -o drug-reaction-result**
+命令举例： **drug-reaction -s 1,2 -g /home/sumin/workdir/test/affy_data_analysis_20180115/20180506/format/filtered  -d ../../20th_20180506_gender.csv  -o drug-reaction-result**
 
 结果实例：/home/sumin/workdir/test/affy_data_analysis_20180115/20180506/format/drug-reaction-result
 
