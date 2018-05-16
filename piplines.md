@@ -35,7 +35,7 @@ ARGS:
 
 代码路径： **git@git.clgene.com:snpr/snpr.git （snpr-calling）**
 
-命令举例： **snpr-base-calling /data2/cifs/Axiom/Data/20180506/ 20180506 --para ~/workdir/snpr/snpr-calling/assets --plateid 20180506**
+命令举例： **snpr-base-calling /data2/cifs/Axiom/Data/20180506/ 20180506 --para /home/sumin/workdir/snpr/snpr-calling/assets --plateid 20180506**
 
 结果实例：
 **/home/sumin/workdir/test/affy_data_analysis_20180115/20180506**
