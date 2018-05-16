@@ -68,7 +68,8 @@ Drug Reaction Pipeline [-dgopsuv] [long options...] <some-arg>
 ## 祖源分析 (分样品)
 ```
 Ancestry Analysis [-ciov] [long options...] <some-arg>
-	-c STR --csv STR     sample genotype csv file
+	-c STR --csv STR     数据处理结果 format/filtered 目录下样本分型的csv文件
+
 	-i STR --step STR    0 for generate result, 1 for result and addto db
 	                   
 	-o STR --outdir STR  output dirname
@@ -81,7 +82,7 @@ Ancestry Analysis [-ciov] [long options...] <some-arg>
 
 数据库以及api: /home/sumin/workdir/SNParray/ancestry_api/
 
-命令举例： **perl ancestry_analysis_csv.pl  -c ~/workdir/test/affy_data_analysis_20180115/20170506/format/filtered/20180506-A02_10007946.csv -i 1 -o 20180506/20180506-A02_10007946**
+命令举例： **perl ancestry_analysis_csv.pl  -c /home/sumin/workdir/test/affy_data_analysis_20180115/20170506/format/filtered/20180506-A02_10007946.csv -i 1 -o 20180506-A02_10007946**
 
 结果实例：/home/sumin/workdir/SNParray/ancestry/20180506/20180506-A02_10007946
 
