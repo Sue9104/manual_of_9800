@@ -61,7 +61,7 @@ Drug Reaction Pipeline [-dgopsuv] [long options...] <some-arg>
 
 数据库以及api: /home/sumin/workdir/SNParray/pharmgkb_api
 
-命令举例： **drug-reaction -s 1,2 -g /home/sumin/workdir/test/affy_data_analysis_20180115/20180506/format/filtered  -d ../../20th_20180506_gender.csv  -o drug-reaction-result**
+命令举例： **drug-reaction -s 1,2 -g /home/sumin/workdir/test/affy_data_analysis_20180115/20180506/format/filtered  -d /home/sumin/workdir/test/affy_data_analysis_20180115/20th_20180506_gender.csv  -o drug-reaction-result**
 
 结果实例：/home/sumin/workdir/test/affy_data_analysis_20180115/20180506/format/drug-reaction-result
 
