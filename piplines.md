@@ -78,7 +78,7 @@ Ancestry Analysis [-ciov] [long options...] <some-arg>
 	--help               print usage message and exit
 
 ```
-代码路径： **git@git.clgene.com:snpr/snpr.git （snpr-calling）**
+代码路径： **git@git.clgene.com:sumin/ancestry-final.git**
 
 数据库以及api: /home/sumin/workdir/SNParray/ancestry_api/
 
