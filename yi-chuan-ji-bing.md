@@ -29,5 +29,6 @@
 * OMIM
 * ClinVar
 
+爬虫得到OMIM数据库路径： /home/sumin/workdir/database/omim
 
 
