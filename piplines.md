@@ -50,9 +50,9 @@ Drug Reaction Pipeline [-dgopsuv] [long options...] <some-arg>
 	-g STR --genotype STR  数据处理结果 format/filtered 目录
 	-d STR --gender STR    样本性别，有两列样本编号和性别，“A01_10021098,男”
 	                     
-	-p STR --para STR      share dir default is
+	-p STR --para STR      数据位点相关配置目录，默认
 	                       /home/sumin/perl5/perlbrew/perls/perl-5.24.1/lib/site_perl/5.24.1/auto/share/dist/Drug-Reaction
-	-u STR --db_url STR    drug reaction database url default is
+	-u STR --db_url STR    药物反应url，默认为
 	                       postgres://postgres:123456@192.168.1.205:5439/pharmgkb
 	-o STR --outdir STR    output directory default is
 	                       drug-reaction_results
